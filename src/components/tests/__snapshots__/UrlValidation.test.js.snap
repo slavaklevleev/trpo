@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input testing Matches the snapshot 1`] = `
+<div
+  className="input"
+>
+  <h2>
+    Введите текст:
+  </h2>
+  <textarea
+    onChange={[Function]}
+    style={
+      Object {
+        "height": 0,
+      }
+    }
+  />
+</div>
+`;

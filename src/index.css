@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Exo 2', sans-serif;
+}
+
+body {
+  background-color: rgb(235, 222, 249);
+}
+
+h1 {
+  grid-area: header;
+  margin: 15px auto;
+}
+
+p {
+  font-size: 16px;
+}
+.input {
+  grid-area: input;
+  border: solid black 1px;
+  margin: 30px;
+  padding: 10px;
+  width: 35vmax;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.output {
+  grid-area: output;
+  border: solid black 1px;
+  margin: 30px;
+  padding: 10px;
+  width: 35vmax;
+}
+
+.output p {
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.UrlValidation {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "input output";
+  grid-gap: 10px;
+  justify-content: space-around;
+}
