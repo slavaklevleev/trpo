@@ -3,11 +3,11 @@ import convertToLink from "./convertToLink"
 import PropTypes from "prop-types";
 
 class Output extends React.Component {
-  // static get propTypes() {
-  //   return {
-  //     text: PropTypes.string
-  //   };
-  // }
+  static get propTypes() {
+    return {
+      text: PropTypes.string
+    };
+  }
   render() {
     return (
       <div className="output">
