@@ -1,7 +1,15 @@
 import React from "react";
 import TextareaAutosize from "react-textarea-autosize";
+import PropTypes from "prop-types";
 
 class Input extends React.Component {
+  static get propTypes() {
+    return {
+      text: PropTypes.string,
+      onTextChange: PropTypes.func
+    };
+  }
+
   constructor(props) {
     super(props);
     this.handleTextChange = this.handleTextChange.bind(this);

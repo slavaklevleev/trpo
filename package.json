@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "babel-loader": "^8.1.0",
     "babel-preset-es2015": "^6.24.1",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
@@ -17,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src/App.js src/components/UrlValidation.js src/components/Input.js src/components/Output.js src/components/convertToLink.js src/components/index.js --fix"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,6 +37,12 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
     "html-webpack-plugin": "^4.3.0",
     "react-test-renderer": "^16.13.1"
   }
